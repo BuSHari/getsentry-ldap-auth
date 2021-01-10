@@ -17,11 +17,11 @@ install_requires = [
 ]
 
 setup(
-    name='sentry-ldap-auth',
-    version='2.8.2',
+    name='sentry-ldap-auth-fix',
+    version='2.8.3',
     author='Chad Killingsworth <chad.killingsworth@banno.com>, Barron Hagerman <barron.hagerman@banno.com>',
     author_email='chad.killingsworth@banno.com',
-    url='http://github.com/banno/getsentry-ldap-auth',
+    url='https://github.com/BuSHari/getsentry-ldap-auth-fix',
     description='A Sentry extension to add an LDAP server as an authentication source.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -30,7 +30,7 @@ setup(
     zip_safe=False,
     install_requires=install_requires,
     include_package_data=True,
-    download_url='https://github.com/banno/getsentry-ldap-auth/tarball/2.8.1',
+    download_url='https://github.com/BuSHari/getsentry-ldap-auth-fix/releases/tag/2.8.3',
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
